@@ -1,6 +1,9 @@
 # FEATURES.md
 
-Accountable: Rishika, Specifier. Consulted: Semaj, Reviewer.
+*Feature chosen for HW6:* **F2**
+* F2-1. WHEN a signed-in person creates a trip with a name, the app shall make them its creator and give them an invite link.
+* F2-2. IF someone tries to join a trip without a valid invite link, THEN the app shall refuse and show no trip details.
+* F2-3. The app shall give each trip one reusable invite link.
 
 Every feature traces to a profile in USERS.md and to the outcome in PROJECT.md. Rows marked (probe) were added or revised after docs/PROBE-001.md.
 
