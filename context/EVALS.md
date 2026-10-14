@@ -1,6 +1,6 @@
 # EVALS.md
 
-##New Prediction Stake:
+## New Prediction Stake:
 **Tight:** bolt.new and Google Studio will satisfy 2 of 3 EARS rows Google AI Studio will satisfy 2 of 3 because F3-1 and F3-3 are form behaviors. F3-2 needs a save that can actually fail, and the spec never says what saving means, so I expect both builders to simply store pictures/reviews in the browser.
 
 **Loose:** bolt.new will create more files that F3 does not need than Google AI Studio will, because in HW5 bolt.new rebuilt the whole app on its own stack instead of staying inside the requested change.
