@@ -1,6 +1,11 @@
 # EVALS.md
 
-Status: ACTIVE. Accountable: Semaj Johnson II, Phase 1 Reviewer.
+##New Prediction Stake:
+**Tight:** bolt.new and Google Studio will satisfy 2 of 3 EARS rows Google AI Studio will satisfy 2 of 3 because F3-1 and F3-3 are form behaviors. F3-2 needs a save that can actually fail, and the spec never says what saving means, so I expect both builders to simply store pictures/reviews in the browser.
+
+**Loose:** bolt.new will create more files that F3 does not need than Google AI Studio will, because in HW5 bolt.new rebuilt the whole app on its own stack instead of staying inside the requested change.
+
+**Open:** Will either builder treat F3-2's "review" and "location" as the same thing as F3-1's "moment" and "place," or will it create separate fields for them?
 
 ## Opportunity Solution Tree
 
@@ -62,7 +67,7 @@ Each member commits their own stake, in their own commit, before any Phase 2 cod
 
 **How we will check:** Watch three people open a multi-member test trip without instruction and note what they say first.
 
-### Rishika Sikhakolli, Specifier — committed <2026-10-08>
+### Rishika Sikhakolli, Specifier — committed 2026-10-08
 
 **Prediction:** People might have things they want to add to the trip feeds that don't have all three criteria (photo, review, location name). F3-1 makes the note optional, members will mostly post a photo and a place, so searching by a word from the note (F5-1) will find fewer moments than searching by place, date, or member.
 
@@ -72,20 +77,13 @@ Each member commits their own stake, in their own commit, before any Phase 2 cod
 
 **Why:** Profile 1 shares quickly and has little patience for writing, and the probe showed that requiring all three fields was a guess, so F3-1 now lets people skip the note. Profile 2 wants to say more than a caption, which is why I am not more confident. If this is right, F5 should treat place, date, and member as the main ways to search.
 
-### Aashi Mehta, Implementer — committed <date>
+### Aashi Mehta, Implementer — committed 2026-10-08
 
 **Tight:** F4 will not be tested properly because we will only have a few dummy accounts created to test the features. In order to test the feature, we need to multiple accounts who are all part of various trips. 
 
-*Result:*
-
 **Loose:** F3 will be used a lot during Phase 2, because we will be conducting tests to see that our features work properly and know how to deal with errors. 
 
-*Result:*
-
 **Open:** Likes and comments are allow when trips are shared publicly, but if the creator doesn’t want to share them publicly, can the trip participants still comment?
-
-*Result:*
-
 
 ### Giancarlo (Architect), committed 2026-10-08
 
@@ -96,4 +94,5 @@ Each member commits their own stake, in their own commit, before any Phase 2 cod
 **Confidence:** 70%
 
 **Why:** D1 is built for rows of text and numbers, not large files, and phone photos are often several megabytes. ADR-001 names only Workers and D1, so if this is right, ADR-001 will need a revision in Phase 2.
-## Where the Stakes Disagree
+
+<!--## Where the Stakes Disagree-->
