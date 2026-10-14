@@ -1,12 +1,12 @@
 # FEATURES.md
 
-## Feature chosen for HW6 – 
+## Feature chosen for HW6
 **F3: Add a moment to a trip (Must-be)**
 * F3-1. WHEN a member submits a moment with at least one of a photo, note, or place, the app shall add it to the trip, labeled with the member's name. (probe)
 * F3-2. IF a review fails to save, THEN the app shall tell the member and keep the photo, note, and location on screen so they can try again.
 * F3-3. IF a member submits a moment with no photo, note, or place, THEN the app shall refuse and add nothing. (probe)
 
-Every feature traces to a profile in USERS.md and to the outcome in PROJECT.md. Rows marked (probe) were added or revised after docs/PROBE-001.md.
+*Every feature traces to a profile in USERS.md and to the outcome in PROJECT.md. Rows marked (probe) were added or revised after docs/PROBE-001.md.*
 
 ## Kano Classification
 
