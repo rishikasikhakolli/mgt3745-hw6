@@ -1,8 +1,6 @@
 # PROMPT.md
 
-The exact text both builders received, unchanged between them. Paste it below.
-
----
+<!--The exact text both builders received, unchanged between them. Paste it below.-->
 
 Build a working web app that implements the feature below, meeting every acceptance criterion and following the user profiles and style rules provided.
 
