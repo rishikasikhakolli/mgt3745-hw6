@@ -4,7 +4,7 @@
 
 Build a working web app that implements the feature below, meeting every acceptance criterion and following the user profiles and style rules provided.
 
-**Feature:** F3 Add a moment to a trip
+**Feature:** Add a moment to a trip
 * WHEN a member submits a moment with at least one of a photo, note, or place, the app shall add it to the trip, labeled with the member's name.
 * IF a review fails to save, THEN the app shall tell the member and keep the photo, note, and location on screen so they can try again.
 * IF a member submits a moment with no photo, note, or place, THEN the app shall refuse and add nothing.
