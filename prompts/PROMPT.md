@@ -39,4 +39,5 @@ Build a working web app that implements the feature below, meeting every accepta
 
 ## Retries
 
-<Builder, what you cut, and why. One retry per builder, and record it in that builder's DDR. Leave "None" if there were none.>
+<!--Builder, what you cut, and why. One retry per builder, and record it in that builder's DDR. Leave "None" if there were none.-->
+Had to edit prompt for bolt.new due to repeated save review error. I included a sentence into the original prompt: "You don't have to include a login and ensure I am able to use the app at this stage, the preview should allow me to add see all the features in action." This outputted an app that functioned.
