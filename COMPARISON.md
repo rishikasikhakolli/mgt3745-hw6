@@ -30,7 +30,7 @@ Agreement rate with the second grader: <N of M items, %>. Details in [JUDGMENT.m
 - AI Studio lets you pick from a fake list of members, so anyone can post as anyone.
 - AI Studio saves moments only in the browser, which never fails, so it faked the F3-2 failure with a checkbox.
 
-F3 never says who the member is or where moments are saved, so the builders differed. F3-1 and F3-3 worked in both builds.
+F3 never says who the member is or where moments are saved, so the builders differed. F3-1 and F3-3 worked in both builds. The prompt included Profile 3, which F3 doesn’t trace to -- AI Studio built Saved Places for that profile.
 
 ## Spec Gaps
 
