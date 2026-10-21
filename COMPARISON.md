@@ -20,7 +20,7 @@ Pass, Partial, or Fail, each with one line of evidence (a screenshot, a file and
 
 ## Judgment Eval
 
-Agreement rate with the second grader: <N of M items, %>. Details in [JUDGMENT.md](JUDGMENT.md).
+Agreement rate with the second grader: 8 of 8, 100%. Details in [JUDGMENT.md](JUDGMENT.md).
 
 ## Findings
 **Top error-log row: the builder had to guess something F3 doesn't say.**
