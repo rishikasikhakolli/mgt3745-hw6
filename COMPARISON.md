@@ -47,29 +47,31 @@ Every place where both builders guessed, or guessed differently.
 
 ### Criteria and Weights (commit before scoring)
 
-<!--| <criterion> | <weight> | <reason> |-->
 | Criterion | Weight (1 to 5) | Why |
 |---|---|---|
 | EARS rows passed | 5 | The feature has to meet its acceptance criteria. |
 | Works from one prompt | 3 | To compare the builders fairly and ensure free tier usage. |
 | Follows STYLE.md | 2 | Can fix it later. |
-<!--| Fit with the team's ADR-001 stack | 4 | Phase 2 builds into the team's chosen architecture. |-->
 
 ### Scores (commit after the weights)
 
-<!--| <criterion> | <weight> | <1 to 5> | <1 to 5> |-->
 | Criterion | Weight | bolt.new | AI Studio |
 |---|---|---|---|
 | EARS rows passed | 5 | 5 | 3 |
 | Works from one prompt | 3 | 1 | 5 |
 | Follows STYLE.md | 2 | 3 | 5 |
-| **Weighted total** | | <34> | <40> |
-<!--| Fit with ADR-001 stack | 4 | <score> | <score> |-->
+| **Weighted total** | | 34 | 40 |
 
 ### Decision
 
-<Which builder your team should use for this feature in Phase 2, why, and at least one thing that gets harder with that choice. Tie the reasoning to your team's ADR-001 stack.>
+**Use Google AI Studio for F3 in Phase 2, with its storage replaced before anything ships.**
+
+AI Studio scored 40 to bolt's 34. It built the feature from one prompt and followed STYLE.md, while bolt's first run broke on posting and needed a second prompt. bolt passed more EARS rows (3 of 3, against AI Studio's 2 of 3 plus a partial), but on a retry.
+
+Neither builder fits ADR-001, which puts all data in Cloudflare D1 behind our own Worker. bolt saved to Supabase (`src/lib/supabase.ts`), a vendor not in our TOOLS.md, and AI Studio saved to the browser's localStorage (`App.tsx`). Both builds need that rewrite which is why I left it out of the weights.
+
+Choosing AI Studio makes two things harder. First, F3-2 cannot be tested until the storage is moved to the Worker, because localStorage never fails. AI Studio only faked the failure with a test checkbox. Second, its extra features (reactions, comments, filters, delete, and saved places) have to be removed or added to the spec on the record.
 
 ## Handoff to the Team
 
-Pull request or issue proposing a FEATURES.md change: <URL>
+Issue proposing a FEATURES.md change: [<URL>](https://github.com/mehtaaashi05/mgt3745-team-Alpha-/issues/76)
