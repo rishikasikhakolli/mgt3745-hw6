@@ -74,4 +74,4 @@ Choosing AI Studio makes two things harder. First, F3-2 cannot be tested until t
 
 ## Handoff to the Team
 
-Issue proposing a FEATURES.md change: [<URL>](https://github.com/mehtaaashi05/mgt3745-team-Alpha-/issues/76)
+Issue proposing a FEATURES.md change: [URL](https://github.com/mehtaaashi05/mgt3745-team-Alpha-/issues/76)
