@@ -33,7 +33,7 @@ EARS rows F3-1, F3-2, and F3-3, plus the STYLE.md 14px minimum text size. The co
 | J7 | bolt.new: Is all text at least 14px, as STYLE.md requires? | No | No |
 | J8 | AI Studio: Is all text at least 14px, as STYLE.md requires? | Yes | Yes |
 
-**Agreement rate:** <8 of 8, 100%>
+**Agreement rate:** 8 of 8, 100%
 
 ## Disagreements
 No disagreements. All eight questions asked about something visible in the files or screenshots, so both graders were checking the same evidence. Questions that need more interpretation, such as whether a message "feels" clear, would be more likely to split. Gemini's full answers: [docs/img/gemini-judgment.md](docs/img/gemini-judgment.md)
