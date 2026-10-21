@@ -57,6 +57,7 @@ Every place where both builders guessed, or guessed differently.
 
 ### Scores (commit after the weights)
 
+<!--| <criterion> | <weight> | <1 to 5> | <1 to 5> |-->
 | Criterion | Weight | bolt.new | AI Studio |
 |---|---|---|---|
 | EARS rows passed | 5 | 5 | 3 |
@@ -64,8 +65,6 @@ Every place where both builders guessed, or guessed differently.
 | Follows STYLE.md | 2 | 3 | 5 |
 | **Weighted total** | | <34> | <40> |
 <!--| Fit with ADR-001 stack | 4 | <score> | <score> |-->
-<!--| <criterion> | <weight> | <1 to 5> | <1 to 5> |
-| **Weighted total** | | <total> | <total> |-->
 
 ### Decision
 
