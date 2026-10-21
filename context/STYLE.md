@@ -1,33 +1,33 @@
 ---
 # Tokens: what a machine reads.
-color-primary: "#051E39"
-color-accent: "#B39051"
+color-primary: "#DD2A7B"
+color-accent: "#00C853"
 color-background: "#FFFFFF"
 color-text: "#1A1A1A"
-color-error: "#A02020"
-font-body: "Arial"
-font-heading: "Arial"
+font-body: "Roboto"
+font-heading: "Georgia"
 font-size-min: 14px
 space-unit: 8px
 radius: 4px
 ---
 
 # STYLE.md
-
+*Tokens are identical to the Style section of PROMPT.md. The rationale was rewritten after the builds with no token changed.*
 Tokens above, rationale below. The frontmatter is what a machine reads; this
 body is what a human reads. One sentence per token. "Looks clean" is fog;
 "gold fails contrast on white at body size" is at altitude.
 
 ## Rationale
 
-- **color-primary**: Deep blue gives the directory a calm, work-focused tone and maintains a 16.78:1 contrast ratio against white, so it passes the 4.5:1 body-text standard for headings and labels.
-- **color-text**: Near-black body text maintains a 17.40:1 contrast ratio against white, which keeps the directory readable for long scanning without forcing a dark theme.
-- **color-error**: The red error color is reserved for failure states only and measures 7.71:1 against white, which keeps the message legible while remaining distinct from the standard informational blue and black text.
-- **color-background**: White creates a minimal, neutral field behind the interface and makes the dark text and blue accents read clearly at a glance.
-- **color-accent**: Gold is restricted to accent borders and the selected-guide border, not body text, because it measures 2.99:1 on white and fails the 4.5:1 threshold for normal text.
-- **font-body / font-heading**: Arial is installed on every device, so the page renders the same everywhere with no font download, and heading weight and size carry the hierarchy instead of a second typeface.
-- **space-unit**: An 8px rhythm keeps the form and list aligned without making a small tool feel crowded.
-- **font-size-min**: 14px is the smallest text so supporting instructions remain readable for users scanning quickly.
+- **color-primary**: Pink marks the main actions, like "Add moment," so they stand out from photos. It is for buttons and large text, not small body text.
+- **color-accent**: Green marks places and highlights only. It is never used for text on its own.
+- **color-background**: White keeps each photo the most noticeable thing on the page.
+- **color-text**: Near-black so notes stay easy to read without the harshness of pure black.
+- **font-body**: Roboto stays readable at 14px on phones, where members add moments.
+- **font-heading**: Georgia gives trip titles a travel-journal feel and is already on most devices, so there is no extra font to download.
+- **font-size-min**: 14px is the smallest text so timestamps and labels stay readable on a phone.
+- **space-unit**: Every gap is a multiple of 8px, so the form and the feed line up.
+- **radius**: 4px corners feel casual like a travel diary without looking like a toy.
 
 ## Refusals
 
