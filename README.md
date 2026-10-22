@@ -6,7 +6,7 @@
 
 **Team repository:** https://github.com/mehtaaashi05/mgt3745-team-Alpha-
 
-**Spec provenance:** copied from commit `5731bf0d1855f2e91fd7387c55fdc8e5633af116` on <2026-10-08>
+**Spec provenance:** copied from commit `5731bf0d1855f2e91fd7387c55fdc8e5633af116` on 2026-10-08
 
 **Feature:** F3 Add a moment to a trip (Must-be)
 * F3-1. WHEN a member submits a moment with at least one of a photo, note, or place, the app shall add it to the trip, labeled with the member's name. (probe)
